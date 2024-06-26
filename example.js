@@ -1,3 +1,4 @@
+//U46368100
 function stockData() {
 
     let csvElements
