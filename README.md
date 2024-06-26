@@ -1,1 +1,3 @@
 # Dynamic-Data-Visualization-Dashboard-Challenge-
+
+This project is about creating a data visualization dashboard that shows stock values from a CSV file. D3.js is used to  create a bar chart/graph that shows the data.  Add a tooltip that shows relevant information and sliders to filter the data. CSS was used to enchance the interface of the webpage and make it visually appealing to whoever reads the code. 
