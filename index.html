@@ -3,11 +3,12 @@
 <head>
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="example.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
     <title>Stock Dashboard</title>
 </head>
-<body onload="stockdata()">
+<body onload="stockData()">
 <h1>Stock Prices Dashboard</h1>
-<form id="">
+<form id="stockDashboard">          
     <label>Stock Name: </label>
     <select name="stockName" id="stockName" required>
 <option value="" selected >Select</option>
@@ -17,6 +18,7 @@
     <label>Start Date: </label>
     <select name="startDate" id="startDate" required>
         <option value=""selected >Select</option>
+        <option value="1">2023-01-01</option>
         <option value="2">2023-01-02</option>
         <option value="3">2023-01-03</option>
         <option value="4"> 2023-01-04</option>
@@ -31,6 +33,10 @@
     </select><br><br>
     <input type="submit" value="Submit">
     </form><br><br>
+
+    <div id="hoverOver" class="hidden">
+        <p><span id="hoverOverStockdata"></span></p>
+    </div>
 
 </body>
 </html>
